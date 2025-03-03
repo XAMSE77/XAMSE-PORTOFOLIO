@@ -140,27 +140,28 @@ h2 {
     gap: 10px; /* Waxay sameynaysaa spacing isku mid ah */
 }
 
-.box {
+ .box {
     border: 2px solid #ffcc00;
-    padding: 15px;
+    padding: 20px;
     border-radius: 10px;
     transition: 0.5s;
-    font-size: 1.1em;
+    font-size: 1.5em; /* Qoraalka oo weynaanaya */
     background: rgba(255, 255, 255, 0.1);
     font-weight: bold;
     text-align: center;
-    width: 200px; /* Ballac go'an si box-yadu u simmaan */
-    height: 70px; /* Dherer isku mid ah */
+    width: 100%; /* Ballac buuxa */
+    max-width: 330px; /* Haddii aad rabto xad */
+    height: 80px; /* Dherer weynaanaya */
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
+    margin: auto; /* Xariijinta dhexe */
 }
 
 .box:hover {
     background: rgba(255, 204, 0, 0.2);
     transform: scale(1.05);
-}
-
 /* ======== Contact Section ======== */
 .contact a {
     display: inline-block;
