@@ -108,21 +108,7 @@ nav a:hover {
     bottom: -90px;
 }
 
-/* Volunteer Work Section */
-#volunteer .box {
-    text-align: left; /* Qoraalka oo bidix u qora */
-    padding: 20px; /* Qoraalka oo ku wareegsan */
-    line-height: 1.6; /* Fogaanta u dhexeysa qoraalka */
-}
-
-#volunteer .box strong {
-    color: #ffcc00; /* Qoraalka oo muujiyo inuu muhiim yahay */
-    font-size: 1.2em; /* Qoraalka oo weynaanaya */
-}
-
-#volunteer .box p {
-    margin: 10px 0; /* Fogaanta u dhexeysa qoraalka */
-}
+ 
 /* Sections */
 section {
     padding: 100px 20px;
