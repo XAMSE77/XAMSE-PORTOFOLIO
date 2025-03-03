@@ -109,9 +109,7 @@ nav a:hover {
  /* ======== Sections Design ======== */
 section {
     padding: 100px 20px;
-    margin-top: 20px; /* Reduced margin-top */
-}
-
+    margin-top: 20px; 
 .container {
     max-width: 800px;
     margin: auto;
@@ -158,7 +156,7 @@ h2 {
     font-weight: bold;
     margin: 15px;
     padding: 10px 20px;
-    border: 2px solid #ffcc00;
+    border: 4px solid #ffcc00;
     border-radius: 10px;
     transition: 0.3s;
 }
