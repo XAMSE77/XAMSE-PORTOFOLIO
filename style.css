@@ -7,6 +7,7 @@ body {
     color: #fff;
     text-align: center;
     overflow-x: hidden;
+    scroll-behavior: smooth; /* Smooth Scroll Effect */
 }
 
 /* Animated Intro */
@@ -156,6 +157,70 @@ h2 {
 .box:hover {
     background: rgba(255, 204, 0, 0.2);
     transform: scale(1.05);
+    box-shadow: 0px 5px 15px rgba(255, 204, 0, 0.5);
+}
+
+/* Testimonials Section */
+.testimonial {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+    text-align: left;
+    border-left: 5px solid #ff946a;
+}
+
+.testimonial p {
+    font-style: italic;
+    color: #fff;
+}
+
+.testimonial strong {
+    color: #ffcc00;
+    display: block;
+    margin-top: 10px;
+}
+
+/* Interactive Timeline */
+.timeline {
+    position: relative;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px 0;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    width: 2px;
+    height: 100%;
+    background: #ffcc00;
+}
+
+.event {
+    padding: 20px;
+    position: relative;
+    width: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.event:nth-child(odd) {
+    left: 0;
+}
+
+.event:nth-child(even) {
+    left: 50%;
+}
+
+.event h3 {
+    color: #ffcc00;
+}
+
+.event p {
+    color: #fff;
 }
 
 /* Contact Section */
@@ -181,6 +246,24 @@ h2 {
     color: #ff946a;
     background: rgba(255, 204, 0, 0.2);
     transform: scale(1.15);
+}
+
+/* Social Media Links */
+.social-media {
+    margin-top: 20px;
+}
+
+.social-media a {
+    color: #ffcc00;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1.2em;
+    transition: 0.3s;
+}
+
+.social-media a:hover {
+    color: #ff946a;
+    transform: scale(1.1);
 }
 
 /* Footer */
