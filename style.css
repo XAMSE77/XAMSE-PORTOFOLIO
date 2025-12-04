@@ -1,4 +1,4 @@
- .timeline {
+.timeline {
     position: relative;
     max-width: 800px;
     margin: auto;
@@ -93,9 +93,7 @@ footer {
     text-transform: uppercase;
     letter-spacing: 1px;
     text-align: center;
-    margin-top: 50px;
-}
-
+    margin-top: 50px;}
 
 
 
